@@ -1,0 +1,80 @@
+body {
+    background-color: white;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+.contenido {
+    padding: 20px;
+    margin-right: 150px; /* Deja espacio para el cuadro derecho */
+}
+
+h1 {
+    color: #222;
+}
+
+h5 {
+    margin-bottom: 5px;
+    color: #005f73;
+}
+
+.titulo-logros {
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+hr {
+    border: none;
+    height: 2px;
+    background-color: #ddd;
+    margin: 10px 0;
+}
+
+/* --- Cuadro lateral --- */
+.cuadro {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 140px;
+    height: 100vh;
+    background-color: lightblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 10px;
+    box-shadow: -2px 0 6px rgba(0,0,0,0.1);
+}
+
+.redonda {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid white;
+    margin-bottom: 10px;
+}
+
+/* --- Redes sociales --- */
+.redes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: auto; /* Empuja iconos al fondo */
+}
+
+.icono {
+    width: 30px;
+    height: 30px;
+    margin: 6px 0;
+    cursor: pointer;
+    transition: transform 0.2s, opacity 0.2s;
+}
+
+.icono:hover {
+    transform: scale(1.2);
+    opacity: 0.8;
+}
