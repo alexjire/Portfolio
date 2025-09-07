@@ -1,0 +1,72 @@
+*{
+font-family: "Roboto", sans-serif;
+}
+body{
+    background-color: bisque;
+}
+header{
+    background-color: white;
+    border-radius: 8px;
+    border: 2px solid black;
+    padding: 10px;
+    display: flex;
+    text-align: center;
+    justify-content:center;
+    gap: 10px;
+}
+.logo{
+    width: 70px;
+    height: 70px;
+    border-radius: 30%;
+   
+    margin: 8px;
+    
+}
+.imagen{
+    height: 200px;
+    width: 200px;
+    border-radius: 60%;
+    border-style: solid white;
+    max-width: 
+}
+section{
+    border:2px solid black;
+    margin: 2px auto;
+    border-radius:8px ;
+    text-align: center;
+    flex-direction: column;
+    transition: box-shadow 0.3s ease;
+    cursor: pointer;
+}
+section:hover{
+    box-shadow: 0 0.1rem 0.4rem rgba(0,0,0,0.9);
+
+}
+.descripcion{
+    list-style: none;
+    text-align: justify , center;
+}
+.beneficios{
+    text-align: left;
+    list-style: circle;
+}
+.icono{
+
+}
+footer p{
+  text-align: center;       
+  font-size: 14px;          
+  color: #555;              
+  margin: 30px;
+}
+footer a img:hover{
+  transform: scale(1.1); /* pequeño zoom */
+  transition: transform 0.3s ease;
+  
+}
+hr{
+    border:none;
+    height: 2px;
+    background-color: black;
+    margin: 10px 0;
+}
