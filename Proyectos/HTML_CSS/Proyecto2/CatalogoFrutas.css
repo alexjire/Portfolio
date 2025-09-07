@@ -70,3 +70,9 @@ hr{
     background-color: black;
     margin: 10px 0;
 }
+@media (max-width: 480px) {
+    .descripcion, .beneficios {
+        width: 100%;
+    }
+}
+
