@@ -1,0 +1,103 @@
+/* Fuente global */
+* {
+    font-family: "Roboto", sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Body */
+body {
+    background-color: black;
+}
+
+/* Header */
+header {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border-radius: 8px;
+    border: 3px solid black;
+    padding: 10px;
+}
+
+.logo {
+    width: 70px;
+}
+
+/* Separador */
+hr {
+    border: 2px solid white;
+    margin: 3px 0;
+}
+
+/* Historia */
+.historia {
+    margin: 5px;
+    padding: 15px;
+    background-color: grey;
+    border-radius: 7px;
+}
+
+.historia p {
+    text-align: justify;
+    line-height: 1.6;
+}
+
+/* Títulos h2 centrados con borde */
+main h2 {
+    text-align: center;
+    border-bottom: 2px solid black;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+}
+
+/* Contenedores de imagen + texto */
+.contenedor {
+    background-color: bisque;
+    display: flex;
+    align-items: flex-start; /* evita huecos verticales */
+    gap: 20px;
+    margin: 15px 5px; /* espacio entre secciones */
+    flex-wrap: wrap; /* para que sea responsive en móviles */
+    border-style: dotted;
+}
+
+/* Imagen */
+.imagen {
+    width: 450px;
+    height: auto;
+    border-radius: 8px;
+    margin: 0; /* quitar margen extra */
+}
+
+/* Texto al lado de la imagen */
+.texto {
+    max-width: 600px;
+    flex: 1; /* ocupa el resto del espacio disponible */
+}
+
+/* Subtítulos h3 y h4 */
+h3 {
+    text-align: center;
+    margin-top: 5px;
+}
+
+h4 {
+    margin-bottom: 10px;
+}
+footer{
+    background-color: grey;
+}
+footer p{
+    text-align: center;
+    font-size: 14px;
+    color: white;
+    margin: 20px 0 0 0;
+}
+footer a img:hover{
+    transform: scale(1.1);
+    transition: transform 0.3s;
+}
