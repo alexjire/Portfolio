@@ -100,4 +100,48 @@ footer p{
 footer a img:hover{
     transform: scale(1.1);
     transition: transform 0.3s;
+}@media (max-width: 768px) {
+    header {
+        flex-direction: column; /* Logo arriba, título abajo */
+        text-align: center;
+    }
+
+    .logo {
+        width: 50px; /* Logo más pequeño */
+    }
+
+    .contenedor {
+        flex-direction: column; /* Imagen arriba, texto abajo */
+        align-items: center;
+    }
+
+    .imagen {
+        width: 100%; /* Imagen ocupa todo el ancho */
+        max-width: 350px; /* pero con límite */
+    }
+
+    .texto {
+        max-width: 100%; /* Texto ocupa todo el ancho disponible */
+        text-align: justify;
+    }
+
+    footer p {
+        font-size: 12px; /* Texto un poco más pequeño */
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
+    h3 {
+        font-size: 16px;
+    }
+
+    h4 {
+        font-size: 15px;
+    }
 }
