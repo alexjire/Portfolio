@@ -1,0 +1,132 @@
+body{
+    background-color: #8b8c7a;
+}
+header{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 0px;
+}
+header img.logo{
+    width: 50px;
+    height: auto;
+}
+.card{
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 80px;
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    border: 5px solid ;
+    margin: 5px;
+}
+.card p{
+    flex: 1;
+}
+.photo{
+    width: 450px;
+    height: auto;
+    border-radius: 8px;
+}
+.subcard{
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 80px;
+    background-color: #f1e1b0;
+    border-radius: 8px;
+    border: 5px dashed ;
+    margin: 5px;  
+}
+.subcard p{
+    flex: 1;
+}
+.icon{
+    width: 50px;
+    height: auto;
+}
+footer{
+    text-align: center;
+}
+.back-to-top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+    cursor: pointer;
+}
+
+.back-to-top img.icon {
+    width: 50px;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.back-to-top img.icon:hover {
+    transform: scale(1.5); 
+}
+
+.back-to-top p {
+    margin: 5px 0 0 0;
+    font-size: 16px;
+    color: #0b7a0b; 
+    font-weight: bold;
+}
+.youtube-embed {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.youtube-embed iframe {
+    border-radius: 8px;
+    max-width: 100%;
+}
+@media screen and (max-width: 768px) {
+    /* Ajustar las tarjetas a columna */
+    .card, .subcard {
+        flex-direction: column;
+        font-size: 18px; /* más legible en móviles */
+        padding: 20px;
+        gap: 15px;
+    }
+
+    .card p, .subcard p {
+        flex: unset;
+    }
+
+    .photo {
+        width: 100%;
+        height: auto;
+    }
+
+    header {
+        flex-direction: column;
+        gap: 5px;
+        padding: 10px;
+    }
+
+    header img.logo {
+        width: 40px;
+    }
+
+    .back-to-top img.icon {
+        width: 40px;
+    }
+
+    .back-to-top p {
+        font-size: 14px;
+    }
+
+    /* Video embebido responsive */
+    .youtube-embed iframe {
+        width: 100%;
+        height: auto;
+    }
+}
